@@ -1,0 +1,42 @@
+/* Footer styles */
+/* Footer styles */
+footer {
+    background-color: white;
+    padding: 0px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+
+footer .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .col {
+    flex: 1;
+    margin: 0 50px;
+}
+
+footer .logo img {
+    max-width: 100px;
+}
+
+footer .col h3 {
+    margin-top: 0;
+}
+
+footer .col ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer .col ul li {
+    margin-bottom: 10px;
+}
+
+footer .col ul li a {
+    text-decoration: none;
+    color: #333;
+}

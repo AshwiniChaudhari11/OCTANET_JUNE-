@@ -1,0 +1,105 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://bangkokhasyou.com/wp-content/uploads/2013/12/hamburger.jpg);
+    
+    color: orange;
+    line-height: 1.1;
+}
+/* Ensure the html and body take full height */
+html, body {
+    height: 100%;
+    /* margin: 0; */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content container */
+.container {
+    flex: 1; /* Take up all remaining space */
+    min-height: 100vh; /* Ensure content takes up at least one full page */
+    box-sizing: border-box;
+}
+
+/* Main content area */
+main.content {
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.header-container h1{
+
+    margin-left: 80px;
+}
+
+
+
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header {
+    background-color:transparent;
+    color: #cb1969;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation ul li {
+    margin: 0 20px;
+}
+
+.navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+    .navigation ul img{
+        height: 49px;
+        width: 49px;
+    }
+    .navigation ul li :hover{
+        
+       font-size: larger;
+       color: burlywood;
+    }
+ 
+    .agency-info {
+        max-width: 800px;
+        margin: 0px 0px;
+        padding: 20px;
+        background:white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    .agency-info h1 {
+        color: #333;
+    }
+    
+    #typed-element {
+        font-size: 18px;
+        color: #1725ec;
+       
+        /* margin-top: 10px; */
+    }
+    

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            
+            <h1>Mahi's Cloud Kitchen</h1>
+            <nav class="navigation">
+                <ul>
+                    <li><img src="logomahi.png" alt=""></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>  
+
+    <main class="container">
+        <div class="agency-info">
+            <h1>About Our Cloud Kitchen</h1>
+            <div id="typed-element"></div>
+        </div>
+
+        <!-- Include Typed.js from CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+        <!-- Typed.js script -->
+        <script>
+            var typed = new Typed('#typed-element', {
+                strings: [
+                    'Delicious meals delivered to your doorstep.',
+                    'Order from your favorite restaurants.',
+                    'Fast, reliable, and convenient delivery.',
+                    'Sign up now and get 20% off your first order!'
+                ],
+                typeSpeed: 10,
+                backSpeed: 25,
+                backDelay: 2000,
+                loop: true
+            });
+        </script>
+    </main>
+
+    <footer>
+        <section class="row">
+            <div class="col">
+                <div class="logo">
+                    <img src="logomahi.png" alt="">
+                </div>
+                <p>Delicious meals delivered to your doorstep.,
+                    Order from your favorite restaurants.',
+                    Fast, reliable, and convenient delivery.',
+                    Sign up now and get 20% off your first order!'</p>       </div>
+            <div class="col">
+                <h3>Office</h3>
+                <p>Mahi's Kitchen</p>
+                <p>Takali(Amiya)</p>
+                <p class="email-id">mahi123@gmail.com</p>
+                <h4>+91-12345678</h4>
+            </div>
+            <div class="col">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Place order</a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
